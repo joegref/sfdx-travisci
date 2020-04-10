@@ -7,4 +7,10 @@ public with sharing class AccountService {
         );
         return newAcct;
     }
+
+    public void notCoveredMethod(){
+        String myString = '';
+        String aString = myString + 'Test string';
+    }
+    
 }
