@@ -3,7 +3,7 @@ public with sharing class AccountService {
         Account newAcct = new Account(
             Name = accountName,
             AccountNumber = accountNumber,
-            TickerSymbol = tickerSymbol 
+            TickerSymbol = tickerSymbol
         );
         return newAcct;
     }
