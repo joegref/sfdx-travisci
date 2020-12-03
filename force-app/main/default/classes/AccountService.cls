@@ -3,7 +3,7 @@ public with sharing class AccountService {
         Account newAcct = new Account(
             Name = accountName,
             AccountNumber = accountNumber,
-            TickerSymbol = tickerSymbol
+            TickerSymbol = accountNumber
         );
         system.debug('New Account = ' + newAcct);
         return newAcct;
